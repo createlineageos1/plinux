@@ -1,0 +1,64 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/textview1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Active Distribution tunnels:"
+		android:textSize="25sp"
+		android:textColor="#000000" />
+	<TextView
+		android:id="@+id/textview2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Our PLinux tunnels is stable. You can sign in to CLinux Linux sandbox via PLinux tunnel ID."
+		android:textSize="12sp"
+		android:textColor="#000000" />
+	<Button
+		android:id="@+id/button1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="UBUNTU 24 LTS"
+		android:textSize="12sp"
+		android:textColor="#000000" />
+	<Button
+		android:id="@+id/button2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="DEBIAN 12"
+		android:textSize="12sp"
+		android:textColor="#000000" />
+	<Button
+		android:id="@+id/button4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="ARCH LINUX (1.0 INSTALLATION)"
+		android:textSize="12sp"
+		android:textColor="#000000" />
+	<TextView
+		android:id="@+id/textview3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text=" "
+		android:textSize="12sp"
+		android:textColor="#000000" />
+	<TextView
+		android:id="@+id/textview4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text=" "
+		android:textSize="12sp"
+		android:textColor="#000000" />
+</LinearLayout>
